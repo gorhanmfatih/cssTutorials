@@ -1,0 +1,17 @@
+
+/* Position konusu start */
+    /* absolute start */
+    .example-absolute {
+        width: 400px;
+        height: 300px;
+        background-color:red;
+    }
+    .test-absolute {
+        position: absolute;
+        top: 179px;
+        left: 79px;
+        /*  */
+    }
+    /* absolute end */
+/* Position konusu end */
+

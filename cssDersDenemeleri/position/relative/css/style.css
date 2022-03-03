@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+}
+body {
+    height: 4000px;
+}
+
+
+/* Position konusu start */
+
+    /* relative start */
+    .example-relative {
+        width: 500px;
+        height: 500px;
+        background-color: #ccc;
+        position: relative;
+    }
+
+    .example-relative div {
+        width: 100px;
+        height: 100px;
+        
+    }
+
+    .example-relative div:nth-child(1) {
+        background-color: salmon;
+        position: relative;
+        z-index: 1;
+        
+    }
+    .example-relative div:nth-child(2) {
+        background-color: seagreen;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        z-index: 2;
+        
+    }
+    .example-relative div:nth-child(3) {
+        background-color: slateblue;
+        position: relative;
+        z-index: 3;
+    }
+    .example-relative div:last-child{
+        background-color: #fd9005;
+        position: absolute;
+        right: 50px; 
+    }
+
+    .page h3 {
+        font: bold 40px Arial, sans-serif;
+        background-color: tomato;
+        color: white;
+    }
+
+    /* relative end */
+
+/* Position konusu end */
+
